@@ -1,0 +1,148 @@
+.footer{
+    margin-top: 65px;
+    padding: 37px 0 50px 0;
+    width: 100%;
+    background-color: #211C1C;
+}
+
+.footer__contant{
+    margin-top: 40px;
+    display: flex;
+    gap: 48px;
+}
+
+.footer__title{
+    color: #FFFFFF;
+}
+
+.footer__text{
+    color: var(--colorTitle);
+}
+
+.footer__data-adress{
+    margin-top: 139px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.footer__data{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+.footer__info{
+    color: #FFF;
+    font-family: Inconsolata;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.1px;
+}
+
+.footer__messanger{
+    margin-top: 184px;
+}
+
+.messanger-list{
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+.messanger-item{
+    display: flex;
+    list-style: none;
+    gap: 7px;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Inconsolata;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1285px) {
+    .footer__contant{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .footer__logo{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__data{
+        font-size: 18px;
+       
+    }
+    .footer__data:first-child{
+        margin-top: -60px;
+    }
+    .footer__info{
+        font-size: 18px;
+    }
+    .messanger-list{
+        display: flex;
+        justify-content: center;
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .card__data{
+        width: 650px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 717px) {
+    .card__data{
+        width: 550px;
+        height: 500px;
+    }
+    .footer__data{
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .card__data{
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .card__data{
+        width: 370px;
+        height: 350px;
+    }
+    .footer__info{
+        font-size: 15px;
+    }
+    .footer__messanger {
+        margin-top: 203px;
+    }
+    .footer__data-adress{
+        margin-top: 79px;
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 395px) {
+    .card__data{
+        max-width: 100%;
+    }
+    .footer__info{
+        font-size: 13px;
+    }
+    .messanger-item{
+        font-size: 10px;
+    }
+}

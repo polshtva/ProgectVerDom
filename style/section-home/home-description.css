@@ -1,0 +1,24 @@
+.home-description__info-block{
+    margin-top: 69px;
+}
+
+.home-description__title{
+    color: var(--colorTitle);
+    font-family: Inconsolata;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.5px;
+}
+
+.home-description__text{
+    color: #000;
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}

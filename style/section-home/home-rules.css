@@ -1,0 +1,36 @@
+.home-rules {
+    margin-top: 70px;
+    padding: 55px 0;
+    background-color: #211C1C;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.home-rules__contant{
+   text-align: center;
+}
+.container {
+}
+.home-rules__title {
+    color: var(--colorTitle);
+    font-family: Inconsolata;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+.home-rules__list {
+    transform: translateX(-10px);
+}
+.home-rules__item {
+    list-style: none;
+    color: #FFF;
+    font-family: Inconsolata;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2.2px;
+}

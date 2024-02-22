@@ -1,0 +1,148 @@
+
+.home-slider{
+    display: flex;
+    padding: 0 10px;
+    align-items: start;
+    justify-content: center;
+    margin-top: 69px;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-user-select: none; 
+    -moz-user-select: none;   
+    -ms-user-select: none;   
+    user-select: none;    
+    position: relative;
+    flex-wrap: nowrap;
+    margin-top: 67px;
+}
+
+    .carusel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carusel img {
+    height: 430px;
+    object-fit: cover;
+    width: calc(100% / 3);
+    margin-left: 14px; 
+}
+
+.carusel img:hover{
+    transform: translateY(-20px);
+    box-shadow: 2px 5px 27px 1px rgba(0, 0, 0, 0.25);
+} 
+.carusel img:first-child {
+    margin-left: 0;
+}
+
+.home-slider i {
+    top: 50%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 50;
+    transform: translateY(-50%);
+}
+
+.home-slider #left {
+    left: -23px;
+}
+
+.home-slider #right {
+    right: -23px;
+}
+
+.enlarged-img {
+    max-width: 100%;
+    max-height: 90%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    margin: 20px 0;
+    touch-action: pinch-zoom;
+}
+
+.close-button {
+    position: fixed;
+    top: 20px;
+    right: 18%;
+    z-index: 10000;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.close-button:hover{
+   fill: #FAB005;
+} 
+
+
+@media screen and (max-width: 900px) {
+    .carusel {
+        white-space: normal;
+        overflow-x: auto;
+        padding-bottom: 20px;
+    }
+
+    .carusel img {
+        width: calc(100% / 2); 
+        margin-left: 14px; 
+    }
+
+    .i {
+        width: 37px;
+        height: 37px;
+        flex-shrink: 0;
+    }
+    .i:first-child {
+        left: -10px;
+    }
+    
+    .i:last-child {
+        right: -10px;
+    }
+}
+
+    
+
+
+@media screen and (max-width: 500px) {
+    .carusel img {
+        width: 100%;
+        margin-left: 14px;
+        height: 358px;
+    }
+}
+
+
+.home-tagline{
+    margin-top: 47px;
+    color: var(--colorTitle);
+    text-align: center;
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #211C1C;
+    opacity: 0.8;
+    display: none;
+    z-index: 9999; /* Значение z-index должно быть выше, чем у других элементов на странице */
+}

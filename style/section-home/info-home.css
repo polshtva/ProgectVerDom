@@ -1,0 +1,42 @@
+ .info-home{
+    margin-top: 47px;
+}
+
+.info-home__contant{
+    display: flex;
+
+}
+
+.info-home__title{
+    color: var(--colorTitle);
+    font-family: Inconsolata;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+}
+
+.info-home__block{
+    padding: 84px 30px 84px 41px;
+    background-color: #211C1C;;
+    /* width: 100%; */
+
+}
+
+.info-home__nav{
+    max-width: 452px;
+}
+
+.info-home__item{
+    color: #FFF;
+    font-family: Inconsolata;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.7px;
+    margin-left: -20px;
+}
+

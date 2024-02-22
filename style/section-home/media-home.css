@@ -1,0 +1,137 @@
+@media screen and (max-width: 1290px) {
+    .fa-solid{
+        display: none;
+    }
+    .carusel{
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch; 
+      }
+}
+
+@media screen and (max-width: 1130px ) {
+    .info-home__contant{
+       flex-wrap: wrap;
+    }
+    .info-home__block{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .info-home__img{
+        width: 100%;
+    }
+    .info-home__title {
+        font-size: 35px;
+    }
+    .info-home__item{
+        font-size: 25px;
+        margin-top: 10px;    
+    }
+    .info-home__nav {
+        max-width: 100%;
+    }
+    .carusel{
+        display: flex;
+    }
+    .fa-solid{
+        display: none;
+    }
+    .close-button{
+        top: 3%;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 665px ) {
+    .info-home__block{
+        padding: 30px 30px;
+    }
+    .info-home__title {
+        font-size: 30px;
+    }
+    .info-home__item{
+        font-size: 20px;
+        margin-top: 10px;    
+    }
+    .home-tagline{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 470px ) {
+    .info-home__title {
+        font-size: 25px;
+        text-wrap: nowrap;
+    }
+    .info-home__item{
+        font-size: 17px;
+        margin-top: 10px;    
+    }
+    .home-description__title{
+        font-size: 20px;
+    }
+    .home-description__text{
+        font-size: 17px;
+    }
+    .home-rules__title, .home-rules__item{
+        font-size: 15px;
+        text-wrap: nowrap;
+    }
+    .home-tagline{
+        font-size: 15px;
+    }
+    .info-home__img{
+        height: 330px;
+    }
+    .home-description__info-block{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 300px ) {
+    .home-rules__title, .home-rules__item{
+        font-size: 15px;
+        text-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 290px ) {
+    .header__logo{
+        margin-left: 0px;
+    }
+    .home__title{
+        font-size: 27px;
+    }
+    .info-home__img {
+        height: 278px;
+    }
+    .info-home__contant{
+        margin-top: -20px;
+    }
+    .info-home__title {
+        font-size: 20px;
+        text-wrap: nowrap;
+    }
+    .info-home__item {
+        font-size: 15px;
+    }
+    .carusel img {
+      height: 250px;
+    }
+    .home-rules__title{
+        transform: translateX(10px);
+    }
+    .card__data{
+        width: 300px;
+        height: 280px;
+    }
+    .footer__img{
+        width: 40px;
+        height: 40px;
+    }
+    .footer__title{
+        font-size: 14px;
+    }
+}

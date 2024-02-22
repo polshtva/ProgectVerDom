@@ -1,0 +1,35 @@
+.stocks {
+    margin-top: 100px;
+    width: 100%;
+    background-color: #211C1C;
+    padding: 30px 0 50px 0;
+}
+
+.stocks__conatnt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 29px;
+    padding-right: 29px;
+}
+.title {
+}
+.stock__title {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.stock__decoration{
+    color: var(--colorTitle);
+    font-weight: bold;
+}
+
+.stock__text{
+    color: var(--colorTitle);
+    text-align: center;
+    margin-top: 5px;
+}

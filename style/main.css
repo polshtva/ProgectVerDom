@@ -1,0 +1,14 @@
+@import url(basic.css);
+@import url(section/header.css);
+@import url(section/hero.css);
+@import url(section/info.css);
+@import url(section/offer-home.css);
+@import url(section/stocks.css);
+@import url(section/reviews.css);
+@import url(section/footer.css);
+@import url(section-home/info-home.css);
+@import url(section-home/home-description.css);
+@import url(section-home/home-rules.css);
+@import url(section-home/home-slider.css);
+@import url(section-home/media-home.css);
+@import url(menu-data.css);
