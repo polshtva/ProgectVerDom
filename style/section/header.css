@@ -99,7 +99,7 @@
     max-width: 58%;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1270px) {
     .nav__list{
         display: none; 
     }
