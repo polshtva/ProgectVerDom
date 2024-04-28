@@ -70,11 +70,16 @@
             </div>
         </div>
             <div class="hero">
-                <img src="img/hero/slider-home.png" id="slideshow" alt="home1" class="hero__img-home">
-                <img src="img/hero/slider-home2.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
-                <img src="img/hero/slider-home3.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
-                <img src="img/hero/slider-home4.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
-                <img src="img/hero/slider-home5.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
+                <img src="hero img/photo1.png" id="slideshow" alt="home1" class="hero__img-home">
+                <img src="hero img/photo2.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
+                <img src="hero img/photo3.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
+                <img src="hero img/photo4.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
+                <img src="hero img/photo5.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
+                <img src="hero img/photo9.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
+                <img src="hero img/photo10.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
+                <img src="hero img/photo6.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
+                <img src="hero img/photo7.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
+                <img src="hero img/photo8.png" id="slideshow" alt="home1" class="hero__img-home" style="display: none;">
                 <div class="hero__contant">
                     <div class="container">
                         <div class="hero__information">
@@ -125,8 +130,6 @@
         <div id="info" class="info">
             <div class="container">
                 <div class="info__contant">
-                    <div class="title info__title" style="text-align: start; margin-bottom: 30px;">Ваш отдых начинается уже здесь
-                    </div>
                     <div class="info__wrapper">
                         <div class="info__text">
                             Пожалуй, снять коттедж на сутки — это лучшее решение для времяпрепровождения в кругу родных и близких или большой компанией друзей. Прекрасное расположение в начале пригорода, но при этом недалеко от мамого центра. Великолепное оснащение домов, привлекательная цена аренды посуточно — что может быть лучше?
@@ -480,11 +483,15 @@
                         <div class="footer__data-adress">
                             <div class="footer__data">
                                 <img src="./img/footer/phone.png" alt="" class="footer__icon">
-                                <div class="footer__info">+7(912) 381-52-42</div>
+                                <div class="footer__num">
+                                    <a href="#" class="footer__info" onclick="makeCall('+79123815242')"> +7(912) 381-52-42</a>
+                                   </div>
                             </div>
                             <div class="footer__data">
                                 <img src="./img/footer/phone.png" alt="" class="footer__icon">
-                                <div class="footer__info">+7(982) 942-20-44</div>
+                                <div class="footer__num">
+                                    <a href="#" class="footer__info" onclick="makeCall('+79829422044')"> +7(982) 942-20-44</a>
+                                   </div>
                             </div>
                             <div class="footer__data">
                                 <img src="./img/footer/address.png" alt="" class="footer__icon">
@@ -494,18 +501,25 @@
                         </div>
                         <div class="footer__messanger">
                             <ul class="messanger-list">
-                                <li class="messanger-item">
-                                    <img src="./img/footer/vk.png" alt="" class="messanger-icon">
-                                    <div class="text messanger__text">VK</div>
+                                <li>
+                                    <a href="https://vk.com/verhniy_dom" class="messanger-item" target="_blank">
+                                        <img src="./img/footer/vk.png" alt="" class="messanger-icon">
+                                        <div class="text messanger__text">VK</div>
+                                    </a>
                                 </li>
-                                <li class="messanger-item">
-                                    <img src="./img/footer/viber.png" alt="" class="messanger-icon">
-                                    <div class="text messanger__text">Viber</div>
+                                <li>
+                                    <a href="viber://chat?number=+79123815242"  class="messanger-item">
+                                        <img src="./img/footer/viber.png" alt="" class="messanger-icon">
+                                        <div class="text messanger__text">Viber</div>
+                                    </a>
                                 </li>
-                                <li class="messanger-item">
-                                    <img src="./img/footer/whatsaap.png" alt="" class="messanger-icon">
-                                    <div class="text messanger__text">WhatsApp</div>
+                                <li>
+                                    <a href="https://wa.me/79123815242"  class="messanger-item" target="_blank">
+                                        <img src="./img/footer/whatsaap.png" alt="" class="messanger-icon">
+                                        <div class="text messanger__text">WhatsApp</div>
+                                    </a>
                                 </li>
+                                
                             </ul>
                         </div>
                     </div>
