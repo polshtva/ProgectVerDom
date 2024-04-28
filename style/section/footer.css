@@ -45,6 +45,10 @@
     margin-top: 184px;
 }
 
+.footer__num{
+    cursor: pointer;
+}
+
 .messanger-list{
     display: flex;
     gap: 15px;
