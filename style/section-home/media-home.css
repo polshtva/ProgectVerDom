@@ -77,7 +77,6 @@
     }
     .home-rules__title, .home-rules__item{
         font-size: 15px;
-        text-wrap: nowrap;
     }
     .home-tagline{
         font-size: 15px;
