@@ -17,6 +17,7 @@
 
 .footer__text{
     color: var(--colorTitle);
+    font-family: 400px;
 }
 
 .footer__data-adress{

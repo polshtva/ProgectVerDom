@@ -47,6 +47,7 @@
     font-family: Source Serif Pro;
     font-weight: 700;
     line-height: normal;
+    margin-top: -2px;
 }
 
 .logo__title{
@@ -54,11 +55,16 @@
     letter-spacing: 2.7px;
     text-transform: uppercase;
     text-wrap: nowrap;
+    margin-top: -13px;
 }
 
 .logo__text{
     font-size: 11px;
     letter-spacing: 1.5px;
+    color: #434242;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: -2px;
 }
 
 .header__contant{
@@ -129,5 +135,8 @@
     }
     .header__title{
         font-size: 14px;
+    }
+    .header__title{
+        margin-top: 0px;
     }
 }
