@@ -93,3 +93,13 @@ a{
         font-size: 30px;
     }
 }
+
+.offer-home__title-address{
+    margin-top: -10px;
+}
+
+.offer-home__title-address2{
+    font-weight: 400;
+    font-size: 20px;
+    color: #434242;
+}
