@@ -5,6 +5,10 @@
     background-color: #211C1C;
 }
 
+.footer li{
+    list-style: none;
+}
+
 .footer__contant{
     margin-top: 40px;
     display: flex;
@@ -95,6 +99,7 @@
         display: flex;
         justify-content: center;
         margin-top: -150px;
+        flex-wrap: wrap;
     }
 }
 
