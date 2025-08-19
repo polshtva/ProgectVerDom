@@ -99,8 +99,8 @@
         display: flex;
         justify-content: center;
         margin-top: -150px;
-        flex-wrap: wrap;
     }
+
 }
 
 @media screen and (max-width: 899px) {
@@ -142,7 +142,9 @@
         margin-top: 79px;
         margin-left: 20px;
     }
-    
+    .messanger__text{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 395px) {
