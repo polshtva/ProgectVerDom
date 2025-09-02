@@ -10,6 +10,7 @@
     overflow-y: hidden;
     display: none;
     overflow-y: auto;
+    font-family: "Montserrat", sans-serif;
 }
 
 .menu-data__title {
@@ -20,8 +21,8 @@
 .menu-data__contant {
     padding: 20px;
     position: relative;
-    box-sizing: border-box; /* Include padding and border in the total width and height */
-    overflow-x: hidden; /* Hide horizontal overflow */
+    box-sizing: border-box; 
+    overflow-x: hidden; 
 }
 
 .menu-data__item {
@@ -45,6 +46,7 @@
     font-size: 1.5em;
     color: white;
     margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .menu-data__item {

@@ -1,6 +1,7 @@
 .header {
     margin-top: 5px;
     position: relative;
+    font-family: "Montserrat", sans-serif;
 }
 
 .header__contant {
@@ -44,7 +45,7 @@
     gap:2px;
     width: 150px;
     color: #000;
-    font-family: Source Serif Pro;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     line-height: normal;
     margin-top: -2px;
@@ -62,7 +63,7 @@
     font-size: 11px;
     letter-spacing: 1.5px;
     color: #434242;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     margin-top: -2px;
 }
@@ -79,7 +80,7 @@
 .nav__item{
     list-style: none;
     color: #5B4949;
-    font-family: Inconsolata;
+    font-family: "Montserrat", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;

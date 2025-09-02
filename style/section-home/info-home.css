@@ -9,7 +9,7 @@
 
 .info-home__title{
     color: var(--colorTitle);
-    font-family: Inconsolata;
+    font-family: "Montserrat", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
@@ -31,7 +31,7 @@
 
 .info-home__item{
     color: #FFF;
-    font-family: Inconsolata;
+    font-family: "Montserrat", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;

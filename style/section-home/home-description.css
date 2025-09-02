@@ -4,7 +4,7 @@
 
 .home-description__title{
     color: var(--colorTitle);
-    font-family: Inconsolata;
+    font-family: "Montserrat", sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -14,7 +14,7 @@
 
 .home-description__text{
     color: #000;
-    font-family: Inconsolata;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;

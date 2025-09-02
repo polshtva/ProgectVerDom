@@ -12,7 +12,7 @@
 
 .hero__title{
     color: #000;
-    font-family: Inconsolata;
+    font-family: "Montserrat", sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 800;
@@ -83,7 +83,7 @@
     flex-shrink: 0;
     color: #000;
     text-align: center;
-    font-family: Inconsolata;
+    font-family: "Montserrat", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
@@ -94,7 +94,7 @@
 
 .hero__offer-title_decoration{
     color: var(--colorTitle);
-    font-family: Inder;
+    font-family: "Montserrat", sans-serif;
 }
 
 .hero__info .hero__btn{
@@ -109,6 +109,7 @@
     font-weight: 400;
     font-size: 20px;
     color: #434242;
+
 }
 
 .hero__icon{

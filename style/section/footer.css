@@ -3,6 +3,7 @@
     padding: 37px 0 50px 0;
     width: 100%;
     background-color: #211C1C;
+    font-family: "Montserrat", sans-serif;
 }
 
 .footer li{
@@ -21,7 +22,7 @@
 
 .footer__text{
     color: var(--colorTitle);
-    font-family: 400px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .footer__data-adress{
@@ -38,7 +39,7 @@
 }
 .footer__info{
     color: #FFF;
-    font-family: Inconsolata;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -67,7 +68,7 @@
     align-items: center;
     color: #FFF;
     text-align: center;
-    font-family: Inconsolata;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
