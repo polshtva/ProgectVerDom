@@ -28,6 +28,22 @@
 .menu-data__item {
     margin-top: 35px;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-data__item a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-data__item a>img{
+    width: 100px;
+}
+
+.menu-data__item a>span{
+    font-weight: bold;
 }
 
 .menu-data__close-button {
