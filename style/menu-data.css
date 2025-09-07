@@ -12,9 +12,14 @@
     overflow-y: auto;
     font-family: "Montserrat", sans-serif;
 }
-
+.menu-data__list-block{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    justify-content: center;
+}
 .menu-data__title {
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 40px !important;
 }
 
@@ -24,6 +29,8 @@
     box-sizing: border-box; 
     overflow-x: hidden; 
 }
+
+
 
 .menu-data__item {
     margin-top: 35px;
@@ -39,7 +46,7 @@
 }
 
 .menu-data__item a>img{
-    width: 100px;
+    width: 80px;
 }
 
 .menu-data__item a>span{
