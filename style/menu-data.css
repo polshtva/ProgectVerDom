@@ -9,15 +9,23 @@
     z-index: 1000;
     overflow-y: hidden;
     display: none;
-    overflow-y: auto;
+    overflow-y: hidden;
     font-family: "Montserrat", sans-serif;
+
 }
 .menu-data__list-block{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 50px;
+    column-gap: 40px;
     justify-content: center;
+    align-items: center;
 }
+
+.menu-data__list-block:last-child{
+    transform: translateX(12px);
+}
+
+
 .menu-data__title {
     margin-top: 20px;
     font-size: 40px !important;
@@ -46,7 +54,7 @@
 }
 
 .menu-data__item a>img{
-    width: 80px;
+    width: 70px;
 }
 
 .menu-data__item a>span{
