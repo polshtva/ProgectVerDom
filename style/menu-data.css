@@ -11,6 +11,7 @@
     display: none;
     overflow-y: hidden;
     font-family: "Montserrat", sans-serif;
+    
 
 }
 .menu-data__list-block{
@@ -19,10 +20,7 @@
     column-gap: 40px;
     justify-content: center;
     align-items: center;
-}
-
-.menu-data__list-block:last-child{
-    transform: translateX(12px);
+   
 }
 
 
@@ -71,6 +69,7 @@
 .menu-data__list {
     list-style: none;
     padding: 0;
+    transform: translateX(-9px);
 }
 
 .menu-data__title {
