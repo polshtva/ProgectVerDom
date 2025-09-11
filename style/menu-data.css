@@ -52,7 +52,7 @@
 }
 
 .menu-data__item a>img{
-    width: 70px;
+    width: 50px;
 }
 
 .menu-data__item a>span{
@@ -77,6 +77,11 @@
     color: white;
     margin-bottom: 10px;
     font-family: "Montserrat", sans-serif;
+}
+
+
+.menu-data__list-block:first-child .menu-data__item:last-child {
+   transform: translateY(10px);
 }
 
 .menu-data__item {

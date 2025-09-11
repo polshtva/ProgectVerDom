@@ -1,4 +1,9 @@
 
+.slider{
+    margin-top: 57px;
+    padding: 0 10px;
+}
+
 .home-slider{
     display: flex;
     padding: 0 10px;
@@ -14,7 +19,12 @@
     user-select: none;    
     position: relative;
     flex-wrap: nowrap;
-    margin-top: 67px;
+
+}
+
+
+.slider__info-mobbile{
+    display: none
 }
 
     .carusel {
@@ -81,6 +91,31 @@
 .close-button:hover{
    fill: #FAB005;
 } 
+
+
+@media(max-width: 1290px){
+    .slider__info-mobbile {
+           display: flex;
+           margin-bottom: 20px;
+            font-weight: 700;
+            font-size: 12px;
+            font-family: "Montserrat", sans-serif;
+            color: #f9be32;
+            font-size: 25px;
+            text-transform: uppercase;
+            display: flex;
+            column-gap: 10px;
+            
+        }
+
+        .slider__info-mobbile::after{
+            content: "";
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            background: url(../../img/str.svg) no-repeat;
+        }
+}
 
 
 @media screen and (max-width: 900px) {
