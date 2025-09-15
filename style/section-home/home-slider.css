@@ -1,51 +1,54 @@
-
-.slider{
+.slider {
     margin-top: 57px;
-    padding: 0 10px;
 }
 
-.home-slider{
+.home-slider {
     display: flex;
-    padding: 0 10px;
     align-items: start;
     justify-content: center;
     margin-top: 69px;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    -webkit-user-select: none; 
-    -moz-user-select: none;   
-    -ms-user-select: none;   
-    user-select: none;    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: relative;
     flex-wrap: nowrap;
-
 }
 
-
-.slider__info-mobbile{
-    display: none
-}
-
-    .carusel {
+.carusel {
     font-size: 0px;
     cursor: pointer;
     overflow: hidden;
     white-space: nowrap;
     scroll-behavior: smooth;
+    width: 100%;
+    scrollbar-width: none;
+    /* Скрываем scrollbar в Firefox */
+}
+
+.carusel::-webkit-scrollbar {
+    display: none;
+    /* Скрываем scrollbar в Chrome, Safari */
 }
 
 .carusel img {
     height: 430px;
     object-fit: cover;
     width: calc(100% / 3);
-    margin-left: 14px; 
+    margin-left: 14px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
+    /* Важно: предотвращаем сжатие изображений */
 }
 
-.carusel img:hover{
+.carusel img:hover {
     transform: translateY(-20px);
     box-shadow: 2px 5px 27px 1px rgba(0, 0, 0, 0.25);
-} 
+}
+
 .carusel img:first-child {
     margin-left: 0;
 }
@@ -56,6 +59,20 @@
     position: absolute;
     z-index: 50;
     transform: translateY(-50%);
+    display: flex;
+    /* Всегда показываем стрелки */
+    align-items: center;
+    justify-content: center;
+    background-color: #FAB005;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    width: 44px;
+    height: 44px;
+}
+
+.home-slider i:hover {
+    opacity: 1;
 }
 
 .home-slider #left {
@@ -88,75 +105,134 @@
     background-color: transparent;
 }
 
-.close-button:hover{
-   fill: #FAB005;
-} 
-
-
-@media(max-width: 1290px){
-    .slider__info-mobbile {
-           display: flex;
-           margin-bottom: 20px;
-            font-weight: 700;
-            font-size: 12px;
-            font-family: "Montserrat", sans-serif;
-            color: #f9be32;
-            font-size: 25px;
-            text-transform: uppercase;
-            display: flex;
-            column-gap: 10px;
-            
-        }
-
-        .slider__info-mobbile::after{
-            content: "";
-            width: 40px;
-            height: 40px;
-            display: inline-block;
-            background: url(../../img/str.svg) no-repeat;
-        }
+.close-button:hover {
+    fill: #FAB005;
 }
+
+/* Стили для точек-индикаторов */
+.slider-dots {
+    display: none;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #FAB005;
+}
+
+/* Контейнер для стрелок внизу (только для мобильных) */
+.slider-controls {
+    display: none;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.slider-controls i {
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAB005;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.slider-controls i:hover {
+    opacity: 1;
+}
+
+
+    .slider__info-mobbile {
+        display: flex;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 12px;
+        font-family: "Montserrat", sans-serif;
+        color: #f9be32;
+        font-size: 25px;
+        text-transform: uppercase;
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .slider__info-mobbile::after {
+        content: "";
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        background: url(../../img/str.svg) no-repeat;
+    }
 
 
 @media screen and (max-width: 900px) {
     .carusel {
-        white-space: normal;
+        white-space: nowrap;
         overflow-x: auto;
         padding-bottom: 20px;
+        -webkit-overflow-scrolling: touch;
+        /* Плавный скролл на iOS */
+        scroll-snap-type: x mandatory;
+        /* Привязка к слайдам */
     }
 
     .carusel img {
-        width: calc(100% / 2); 
-        margin-left: 14px; 
+        width: 100%;
+        /* На мобильных - одна картинка на весь экран */
+        margin-left: 0;
+        scroll-snap-align: start;
+        /* Привязка к началу слайда */
     }
 
-    .i {
-        width: 37px;
-        height: 37px;
-        flex-shrink: 0;
+    /* Прячем верхние стрелки на мобильных */
+    .home-slider i {
+        display: none !important;
     }
-    .i:first-child {
-        left: -10px;
+
+    /* Показываем стрелки внизу на мобильных устройствах */
+    .slider-controls {
+        display: flex;
     }
-    
-    .i:last-child {
-        right: -10px;
+
+    /* Показываем точки на мобильных устройствах */
+    .slider-dots {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 10px;
     }
 }
-
-    
-
 
 @media screen and (max-width: 500px) {
     .carusel img {
-        width: 100%;
-        margin-left: 14px;
         height: 358px;
+    }
+
+    .slider-controls i {
+        width: 40px;
+        height: 40px;
+    }
+
+    .slider-controls svg {
+        width: 30px;
+        height: 30px;
     }
 }
 
-
-.home-tagline{
+.home-tagline {
     margin-top: 47px;
     color: var(--colorTitle);
     text-align: center;
@@ -168,8 +244,6 @@
     letter-spacing: 3px;
 }
 
-
-
 .overlay {
     position: fixed;
     top: 0;
@@ -179,5 +253,5 @@
     background-color: #211C1C;
     opacity: 0.8;
     display: none;
-    z-index: 9999; /* Значение z-index должно быть выше, чем у других элементов на странице */
+    z-index: 9998;
 }

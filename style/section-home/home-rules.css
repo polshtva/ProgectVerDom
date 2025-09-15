@@ -21,9 +21,7 @@
     letter-spacing: 2.2px;
     text-transform: uppercase;
 }
-.home-rules__list {
-    transform: translateX(-10px);
-}
+
 .home-rules__item {
     list-style: none;
     color: #FFF;

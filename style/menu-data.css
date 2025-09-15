@@ -71,6 +71,9 @@
     padding: 0;
     transform: translateX(-9px);
 }
+.menu-data__list-block_main{
+    transform: translateX(19px);
+}
 
 .menu-data__title {
     font-size: 1.5em;
