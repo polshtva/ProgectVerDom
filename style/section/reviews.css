@@ -104,6 +104,22 @@
     display: none;
 }
 
+.reviews__link_more{
+    display: none;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.reviews__link_more a{
+    color: #FAB005;
+    font-weight: bold;
+    transition: transform 0.5s;
+}
+
+.reviews__link_more a:hover{
+    transform: scale(1.1);
+}
+
 
 @media(max-width: 800px){
     .reviews__item{

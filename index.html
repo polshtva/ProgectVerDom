@@ -387,6 +387,7 @@
         <div class="reviews" id="reviews">
             <div class="container">
                 <div class="title reviews__title">Отзывы</div>
+
                 <div class="reviews__contant">
                     <ul class="reviews__list">
                         <li class="reviews__item">
@@ -397,7 +398,6 @@
                                         ​Ольга Павлинова</div>
                                     <div class="reviews__grade">
                                         <img src="./img/reviews/stars.png" alt="" class="reviews__star">
-                                        <div class="reviews__text reviews__data">31 марта</div>
                                     </div>
                                 </div>
                             </div>
@@ -414,7 +414,7 @@
                                     <div class="reviews__text reviews__name-person">​Лариса Ткачук(Неживых)</div>
                                     <div class="reviews__grade">
                                         <img src="./img/reviews/stars.png" alt="" class="reviews__star">
-                                        <div class="reviews__text reviews__data">13 января</div>
+                                
                                     </div>
                                 </div>
                             </div>
@@ -429,7 +429,7 @@
                                     <div class="reviews__text reviews__name-person">Qwer82tf</div>
                                     <div class="reviews__grade">
                                         <img src="./img/reviews/stars.png" alt="" class="reviews__star">
-                                        <div class="reviews__text reviews__data">22 декабря</div>
+                                      
                                     </div>
                                 </div>
                             </div>
@@ -442,7 +442,7 @@
                                     <div class="reviews__text reviews__name-person">Алик Аликов</div>
                                     <div class="reviews__grade">
                                         <img src="./img/reviews/stars.png" alt="" class="reviews__star">
-                                        <div class="reviews__text reviews__data">16 декабря</div>
+                                    
                                     </div>
                                 </div>
                             </div>
@@ -455,7 +455,7 @@
                                     <div class="reviews__text reviews__name-person">Artem_tmn</div>
                                     <div class="reviews__grade">
                                         <img src="./img/reviews/stars.png" alt="" class="reviews__star">
-                                        <div class="reviews__text reviews__data">25 ноября</div>
+                                    
                                     </div>
                                 </div>
                             </div>
@@ -471,7 +471,7 @@
                                     <div class="reviews__text reviews__name-person">тюменка</div>
                                     <div class="reviews__grade">
                                         <img src="./img/reviews/stars.png" alt="" class="reviews__star">
-                                        <div class="reviews__text reviews__data">15 ноября</div>
+                                   
                                     </div>
                                 </div>
                             </div>
@@ -488,7 +488,7 @@
                                     <div class="reviews__text reviews__name-person">Алексей Владимирович</div>
                                     <div class="reviews__grade">
                                         <img src="./img/reviews/stars.png" alt="" class="reviews__star">
-                                        <div class="reviews__text reviews__data">20 сентября</div>
+                                 
                                     </div>
                                 </div>
                             </div>
@@ -504,7 +504,7 @@
                                     <div class="reviews__text reviews__name-person">Павел</div>
                                     <div class="reviews__grade">
                                         <img src="./img/reviews/stars.png" alt="" class="reviews__star">
-                                        <div class="reviews__text reviews__data">6 сентября</div>
+                              
                                     </div>
                                 </div>
                             </div>
@@ -521,7 +521,7 @@
                                     <div class="reviews__text reviews__name-person">Tolik Juraev</div>
                                     <div class="reviews__grade">
                                         <img src="./img/reviews/stars.png" alt="" class="reviews__star">
-                                        <div class="reviews__text reviews__data">4 сентября</div>
+                                      
                                     </div>
                                 </div>
                             </div>
@@ -534,7 +534,7 @@
                                     <div class="reviews__text reviews__name-person">Дмитрий Арканов</div>
                                     <div class="reviews__grade">
                                         <img src="./img/reviews/stars.png" alt="" class="reviews__star">
-                                        <div class="reviews__text reviews__data">30 августа</div>
+                                   
                                     </div>
                                 </div>
                             </div>
@@ -546,6 +546,9 @@
                         </li>
                     </ul>
                     <div class="reviews__link">Показать больше</div>
+                                    <div class="reviews__link_more">
+                                        <a target="_blank" href="https://2gis.ru/tyumen/search/%D0%92%D0%B5%D1%80%D1%85%D0%BD%D0%B8%D0%B9%20%D0%B4%D0%BE%D0%BC/firm/70000001039726725/65.503306%2C57.215596/tab/reviews?m=65.544151%2C57.159618%2F10.72">Смотреть больше отзывов </a>
+                                    </div>
                 </div>
             </div>
         </div>
@@ -639,6 +642,7 @@
                     el.style.display = "flex";
                     textButton.style.display = "none";
                 })
+                document.querySelector(".reviews__link_more").style.display = "flex";
             })
         } catch (error) {
             console.error(error);
