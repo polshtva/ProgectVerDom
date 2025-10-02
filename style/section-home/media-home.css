@@ -64,6 +64,13 @@
     .info-home__title {
         font-size: 25px;
         text-wrap: nowrap;
+        margin-top: 10px;
+        text-align: center;
+        transform: translateX(-16px);
+    }
+    .offer-home__block .info-home__title{
+        font-weight: 600;
+        font-size: 20px;
     }
     .info-home__item{
         font-size: 17px;

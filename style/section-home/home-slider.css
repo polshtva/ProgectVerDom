@@ -159,7 +159,7 @@
     .slider__info-mobbile {
         display: flex;
         margin-bottom: 20px;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 12px;
         font-family: "Montserrat", sans-serif;
         color: #f9be32;
@@ -167,14 +167,7 @@
         text-transform: uppercase;
         display: flex;
         column-gap: 10px;
-    }
-
-    .slider__info-mobbile::after {
-        content: "";
-        width: 40px;
-        height: 40px;
-        display: inline-block;
-        background: url(../../img/str.svg) no-repeat;
+        justify-content: center;
     }
 
 
