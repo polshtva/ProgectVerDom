@@ -1,21 +1,21 @@
-.offer-home__contant{
-    margin-top: 60px;
-    
+.offer-home__contant {
+    margin-top: 27px;
+
 }
 
-.offer-home__nav{   
+.offer-home__nav {
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
 }
 
-.offer-home__title{
+.offer-home__title {
     font-size: 30px !important;
     margin-top: 50px;
 }
 
-.offer-home__price{
+.offer-home__price {
     text-align: center;
     color: #FFF;
     font-family: "Montserrat", sans-serif;
@@ -26,7 +26,7 @@
     margin-top: 25px;
 }
 
-.offer-home__button{
+.offer-home__button {
     background-color: transparent;
     border: 3px solid var(--colorTitle);
     padding: 14px 18px;
@@ -43,33 +43,37 @@
     cursor: pointer;
     margin-top: 20px;
 }
-.offer-home__data{
+
+.offer-home__data {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.offer-home__button:hover{
+
+.offer-home__button:hover {
     border: 3px solid white;
     color: white;
 }
-.offer-home__title-address{
-    color:var(--colorTitle);
+
+.offer-home__title-address {
+    color: var(--colorTitle);
     margin-top: 10px;
     font-family: "Montserrat", sans-serif;
 }
 
 
 @media screen and (max-width: 1122px) {
-    .info-home__block{
+    .info-home__block {
         padding: 0px 20px 33px 40px !important;
     }
 }
 
-@media screen and (max-width:750px){
-    .offer-home__title{
+@media screen and (max-width:750px) {
+    .offer-home__title {
         font-size: 20px;
     }
-    .info-home__item{
+
+    .info-home__item {
         font-size: 15px;
     }
 }
@@ -77,34 +81,38 @@
 
 
 
-@media screen and (max-width:490px){
-    .offer-home__title{
+@media screen and (max-width:490px) {
+    .offer-home__title {
         font-size: 18px !important;
         text-wrap: wrap !important;
         margin-top: 15px;
     }
-    .info-home__item{
+
+    .info-home__item {
         font-size: 13px !important;
     }
 }
 
-@media screen and (max-width:290px){
-   .offer-home__contant{
-    margin-top: 50px !important;
-   }
+@media screen and (max-width:290px) {
+    .offer-home__contant {
+        margin-top: 50px !important;
+    }
 }
 
 @media screen and (max-width: 300px) {
-    .hero__img-home{
+    .hero__img-home {
         height: 217px;
     }
-    .offer-title{
+
+    .offer-title {
         font-size: 25px;
     }
+
     .info-home__img {
         height: 221px;
     }
-    .reviews__list{
+
+    .reviews__list {
         transform: translateX(-41px) !important;
     }
 }
